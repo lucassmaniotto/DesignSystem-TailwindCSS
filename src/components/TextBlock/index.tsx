@@ -2,7 +2,7 @@ export type TextBlockProps = {
   title: string;
   textBlock: string;
   className?: string;
-};
+} & React.HTMLAttributes<HTMLDivElement>;
 
 export const TextBlock = ({ title, textBlock, className }: TextBlockProps) => {
   return (
