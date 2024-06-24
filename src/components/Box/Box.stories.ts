@@ -6,19 +6,18 @@ const meta: Meta<BoxProps> = {
   title: "Atoms/Box",
   component: Box,
   argTypes: {
-  children: { type: "string" },
-  type: {
-    control: {
-      type: "select",
-      options: ["primary", "secondary", "dark", "alert", "success", "error"],
+    children: { type: "string" },
+    type: {
+      control: {
+        type: "select",
+        options: ["primary", "secondary", "dark", "alert", "success", "error"],
+      },
     },
+    rounded: { type: "boolean" },
+    border: { type: "boolean" },
+    filledBackground: { type: "boolean" },
+    className: { type: "string" },
   },
-  rounded: { type: "boolean" },
-  border: { type: "boolean" },
-  filledBackground: { type: "boolean" },
-  className: { type: "string" },
-},
-
 };
 
 export default meta;
