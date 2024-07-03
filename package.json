@@ -1,7 +1,7 @@
 {
-  "name": "alfabit-design-system",
-  "version": "0.1.0",
-  "private": true,
+  "name": "alfabit-ds-alura-course",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -43,5 +43,15 @@
     "storybook": "^8.1.6",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "components/index.ts",
+  "author": "Lucas Smaniotto",
+  "license": "ISC",
+  "files": [
+    "styles/globals.css",
+    "tailwind.config.js",
+    "components/*",
+    "fonts/*"
+  ]
 }
