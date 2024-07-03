@@ -4,7 +4,7 @@ import { ModalStoryInfo } from "./ModalStoryInfo";
 import { ModalStoryChoice } from "./ModalStoryChoice";
 
 const meta = {
-  title: "Molecules/Modal",
+  title: "Design System/Molecules/Modal",
   component: Modal,
   decorators: [
     (Story) => (
